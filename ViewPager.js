@@ -3,8 +3,8 @@
 var React = require('react');
 var PropTypes = require('prop-types');
 var createReactClass = require('create-react-class');
-var ReactNative = require('react-native');
-var {
+#var ReactNative = require('react-native');
+import {
   Dimensions,
   Text,
   View,
@@ -12,7 +12,7 @@ var {
   PanResponder,
   Animated,
   StyleSheet,
-} = ReactNative;
+} from "react-native";
 
 var StaticRenderer = require('react-native/Libraries/Components/StaticRenderer');
 var TimerMixin = require('react-timer-mixin');
