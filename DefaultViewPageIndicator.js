@@ -2,15 +2,15 @@
 var PropTypes = require('prop-types');
 var React = require('react');
 var createReactClass = require('create-react-class');
-var ReactNative = require('react-native');
-var {
+//var ReactNative = require('react-native');
+import {
   Dimensions,
   StyleSheet,
   Text,
   TouchableOpacity,
   View,
   Animated,
-} = ReactNative;
+} from 'react-native';
 
 var deviceWidth = Dimensions.get('window').width;
 var DOT_SIZE = 6;
